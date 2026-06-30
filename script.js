@@ -25,11 +25,3 @@ themeBtn.addEventListener("click", () => {
         themeBtn.textContent = "🌙 Темна тема";
     }
 });
-
-// Плавний скрол (ваш код)
-document.querySelectorAll("nav a").forEach(link => {
-    link.addEventListener("click", e => {
-        e.preventDefault();
-        window.scrollTo({ top: 500, behavior: "smooth" });
-    });
-});
